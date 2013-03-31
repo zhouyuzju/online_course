@@ -32,6 +32,7 @@ class tsp():
         			(z,w) = cities[j]
        	 			self.dis[(i,j)] = ((x - z) ** 2 + (y - w) ** 2) ** 0.5
         			self.dis[(j,i)] = self.dis[(i,j)] 
+		instream.close()
 
 	def bitwise(self,aSet):
     		result = 0

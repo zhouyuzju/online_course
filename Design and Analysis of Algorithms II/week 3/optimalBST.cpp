@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	double p[8] = {0.0,0.05,0.4,0.08,0.04,0.1,0.1,0.23};
+	double p[8] = {0.0,0.2,0.05,0.17,0.1,0.2,0.03,0.25};
 	double A[8][8];
 	for(int i = 0;i < 8;i++)
 		for(int j = 0;j < 8;j++)
